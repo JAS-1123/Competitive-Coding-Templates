@@ -7,5 +7,4 @@ DSU.txt – Disjoint Set Union (Union–Find) implementation optimized with unio
 
 Graphs.txt – Graph traversal algorithms, including depth-first search (DFS) and breadth-first search (BFS).
 
-SegmentTree.txt – Segment Tree implementations, including both the standard and lazy propagation variants.
 
