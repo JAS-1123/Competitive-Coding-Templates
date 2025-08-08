@@ -1,10 +1,11 @@
 # Competitive-Coding-Templates
-this includes all of the competitive coding templates i use during contests and solving questions
+This repository contains my standard templates and utility implementations used during competitive programming contests and problem-solving sessions.
 
-MainTemplate.cpp includes the my go to template, all of my solutions have this included.
+MainTemplate.cpp – Primary Template, This file is included in all solution files as the base setup.
 
-DSU.txt includes the DisjointSet implementation based on size
+DSU.txt – Disjoint Set Union (Union–Find) implementation optimized with union by size.
 
-Graphs.txt include DFS and BFS traversal
+Graphs.txt – Graph traversal algorithms, including depth-first search (DFS) and breadth-first search (BFS).
 
-SegmentTree.txt includes the basic SegmentTree codes (including LazyTree implementation)
+SegmentTree.txt – Segment Tree implementations, including both the standard and lazy propagation variants.
+
