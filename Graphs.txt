@@ -1,0 +1,27 @@
+vll bfs(vector<vll>& adj, vector<bool>& visited, ll s){
+    ll V = adj.size();
+    vll res;
+    queue<ll> q;
+    visited[s] = true;
+    q.push(s);
+
+    while(!q.empty()){
+        ll curr = q.front();
+        q.pop();
+        res.push_back(curr);
+        for(ll x : adj[curr]) {
+            if(!visited[x]){
+                visited[x] = true;
+                q.push(x);
+            }
+        }
+    }
+    return res;
+}
+
+void dfs(vector<vll> &adj, vector<bool>& visited, ll s){ //take care of connected graphs
+    visited[s] = true;
+    for(ll i : adj[s]){
+        if(!visited[i]) dfs(adj, visited, i);
+    }
+}
